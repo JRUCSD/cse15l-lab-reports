@@ -18,5 +18,5 @@
 `code`
 ---
 
-[title](https://www.example.com)
-![alt text](https://media.istockphoto.com/photos/fruit-basket-picture-id119401613)
+[Example](https://www.example.com)
+![Fruit Basket](https://media.istockphoto.com/photos/fruit-basket-picture-id119401613)
