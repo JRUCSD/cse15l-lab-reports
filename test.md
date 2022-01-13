@@ -5,7 +5,6 @@
 *Italic*
 **Bold**
 
->blockquote
 
 1. List 1
 2. List 2
@@ -14,8 +13,9 @@
 - First
 - Second 
 - Third
+- Fourth
 
-`code`
+`coding rules`
 ---
 
 [Example](https://www.example.com)
