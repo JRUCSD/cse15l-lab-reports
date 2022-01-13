@@ -19,4 +19,4 @@
 ---
 
 [title](https://www.example.com)
-![alt text](image.jpg)
+![alt text](https://media.istockphoto.com/photos/fruit-basket-picture-id119401613)
