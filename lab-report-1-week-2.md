@@ -20,7 +20,7 @@ And with your password entered, you should now be connected to a remote server. 
 ## Testing Some Commands
 
 
-## Moving Files with `scp`
+## Moving Files with scp
 Similar to sending an email with file attachments, files can be sent between client and server with a secure copy. Type `scp`, followed by the file you wish to copy, and your account login, ending with `:~/`. All together it should look like this: 
 `> scp <filename> <username>@ieng6.ucsd.edu:~/`
 ![Secure Copy of a File](scp.png)
