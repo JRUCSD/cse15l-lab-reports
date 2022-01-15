@@ -13,17 +13,21 @@ Visit [code.visualstudio.com](https://code.visualstudio.com/), download & instal
 
 With SSH installed, in VSCode, open a new terminal by finding Terminal > New Terminal at the top of the window. Alternatively, type `cmd` into the Windows search bar to open the command prompt terminal.  
 Next you are going to log in with your UCSD course specific username which can be found [here](https://sdacs.ucsd.edu/~icc/index.php). After entering your credentials, you should see under *Additional Accounts* a list of accounts registered with your UCSD account. These are what we'll be using to connect remotely. You may need to change your password before you can successfully login remotely (Note that this will change your TritonLink password as well). With your username, enter the following command:   
->`ssh <username>@ieng6.ucsd.edu`   
+`ssh <username>@ieng6.ucsd.edu`   
 ![Remote Login](passwordLogin.png)
-Type your password, you won't be able to see the password on the command line so don't panic thinking your inputs aren't being read.   
-And with your password entered, you should now be connected to a remote server. In this case, that server is one of the computers in the CSE basement.
+Type your password, you won't be able to see the password on the terminal so don't panic thinking your inputs aren't being read.   
+And with your password entered, you should now be connected to a remote server. In this case, that server is one of the computers in the CSE basement. Type `exit` to logout and close the remote connection.
 
 ## Testing Some Commands
-
+Whether you're remotely connected or working locally, here are some commands to help familiarize or refamiliarize you with the terminal interface.  
+`cd <path>` changes the current directory to the specified path `cd ..` moves the user to the parent directory. 
+`ls` lists the files in a directory. `ls -a` lists all files a directory, including hidden files.
+`mkdir` makes a new subdirectory from the current directory.  
+`pwd` prints the full path name of the current directory to the terminal.  
 
 ## Moving Files with scp
 Similar to sending an email with file attachments, files can be sent between client and server with a secure copy. Type `scp`, followed by the file you wish to copy, and your account login, ending with `:~/`. All together it should look like this: 
->`scp <filename> <username>@ieng6.ucsd.edu:~/`
+`scp <filename> <username>@ieng6.ucsd.edu:~/`
 ![Secure Copy of a File](scp.png)
 
 ## Setting an SSH Key
@@ -37,3 +41,4 @@ Helpful shortcuts in the terminal:
     - Combining the above steps allows multiple commands to be run remotely
     ![Terminal Shortcuts](shortcut.png)
 - Use the up arrow to recall the most recent commands
+- Use the tab key to autofill directories and files
