@@ -1,5 +1,4 @@
-# CSE 15L Lab Report 1
-# How to Access a Remote Server
+# CSE 15L Lab Report 1  How to Access a Remote Server
 
 ## Installing VSCode
 Visit [code.visualstudio.com](https://code.visualstudio.com/), download & install Visual Studio Code on your device. When complete, open VSCode if it does not automatically. The first thing you should see is the *Getting Started* page, but after clearing it you should see a screen like this:   
@@ -20,10 +19,14 @@ And with your password entered, you should now be connected to a remote server. 
 
 ## Testing Some Commands
 Whether you're remotely connected or working locally, here are some commands to help familiarize or refamiliarize you with the terminal interface.  
-`cd <path>` changes the current directory to the specified path `cd ..` moves the user to the parent directory. 
-`ls` lists the files in a directory. `ls -a` lists all files a directory, including hidden files.
-`mkdir` makes a new subdirectory from the current directory.  
+`cd <path>` changes the current directory to the specified path.  
+`cd ..` moves the user to the parent directory.   
+`ls` lists the files in a directory.   
+`ls -a` lists all files a directory, including hidden files.  
+`mkdir` makes a new subdirectory from the current directory.    
 `pwd` prints the full path name of the current directory to the terminal.  
+
+Examples of commands in action:   ![Terminal commands](commands.png)
 
 ## Moving Files with scp
 Similar to sending an email with file attachments, files can be sent between client and server with a secure copy. Type `scp`, followed by the file you wish to copy, and your account login, ending with `:~/`. All together it should look like this: 
