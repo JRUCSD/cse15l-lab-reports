@@ -46,16 +46,13 @@ Helpful shortcuts in the terminal:
 - Use the up arrow to recall the most recent commands
 - Use the tab key to autofill directories and files
 
-Here's a comparison between compiling and running a program with a mix of the afformentioned optimizations.  
+Here's a comparison between compiling and running a program with a mix of the aformentioned optimizations.  
 *For each test, the only differences are in the optimizations provided in this step only.*  
-| |**Test 1: Not Optimized**|**Test 2: Optimized**|  
-|:---|:---:|:---:|  
-|Number of Lines| 5 | 2 lines |  
-|Number of Keystrokes| 115 | 40 |  
-|Time Taken| 5 minutes | 2 minutes |  
 
-### Test 1   
+### Test 1: Not Optimized   
+**Number of Lines: 5; Number of Keystrokes: 115; Time Taken: 5 minutes**   
 ![test 1](test1.png)
 
-### Test 2   
+### Test 2: Optimized   
+**Number of Lines: 2; Number of Keystrokes: 40; Time Taken: 2 minutes**  
 ![test 2](test2.png)
