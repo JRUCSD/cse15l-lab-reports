@@ -45,3 +45,17 @@ Helpful shortcuts in the terminal:
     ![Terminal Shortcuts](shortcut.png)
 - Use the up arrow to recall the most recent commands
 - Use the tab key to autofill directories and files
+
+Here's a comparison between compiling and running a program with a mix of the afformentioned optimizations.  
+*For each test, the only differences are in the optimizations provided in this step only.*  
+| |**Test 1: Not Optimized**|**Test 2: Optimized**|  
+|:---|:---:|:---:|  
+|Number of Lines| 5 | 2 lines |  
+|Number of Keystrokes| 115 | 40 |  
+|Time Taken| 5 minutes | 2 minutes |  
+
+### Test 1   
+![test 1](test1.png)
+
+### Test 2   
+![test 2](test2.png)
