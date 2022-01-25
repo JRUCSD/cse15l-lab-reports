@@ -45,14 +45,24 @@ Helpful shortcuts in the terminal:
     ![Terminal Shortcuts](shortcut.png)
 - Use the up arrow to recall the most recent commands
 - Use the tab key to autofill directories and files
+- Commands can be copied and pasted into the terminal
 
 Here's a comparison between compiling and running a program with a mix of the aformentioned optimizations.  
 *For each test, the only differences are in the optimizations provided in this step only.*  
 
 ### Test 1: Not Optimized   
 **Number of Lines: 5; Number of Keystrokes: 115; Time Taken: 5 minutes**   
+At a large scale, running commands without the terminal shortcuts can exhaust time and with more keystrokes, typos and other errors become more likely.
 ![test 1](test1.png)
 
-### Test 2: Optimized   
+### Test 2: Optimized using only terminal shortcuts  
 **Number of Lines: 2; Number of Keystrokes: 40; Time Taken: 2 minutes**  
+Terminal shortcuts assist in optimizing the time it takes to run commands.  
+However, the up arrow shortcut is truly useful for running the same commands multiple times as opposed to just once.  
+Aditionally, using tab to autofill can become ineffective when a lot of files have similar names.   
+![test 2](test2.png)
+
+### Test 3: Optimized with ctrl+c ctrl+v  
+**Number of Lines: 2; Number of Keystrokes: 10; Time Taken: 20 seconds**  
+Copying and pasting from an external document is incredibly effective at reducing keystrokes because it minimizes any actual typing and for the most part, eliminates typos and syntax related errors because the commands are typed ahead of time in an external document.   
 ![test 2](test2.png)
