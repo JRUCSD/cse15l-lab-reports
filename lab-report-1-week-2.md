@@ -65,4 +65,4 @@ Aditionally, using tab to autofill can become ineffective when a lot of files ha
 ### Test 3: Optimized with **`ctrl+c`** & **`ctrl+v`**  
 **Number of Keystrokes: 10; Time Taken: 20 seconds**  
 Copying and pasting from an external document is incredibly effective at reducing keystrokes because it minimizes any actual typing and for the most part, eliminates typos and syntax related errors because the commands are typed ahead of time in an external document.   
-![test 2](test2.png)
+![test 3](test3.png)
