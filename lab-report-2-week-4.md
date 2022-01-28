@@ -1,4 +1,4 @@
-# CSE 15L Lab Report 2  Testing
+# CSE 15L Lab Report 2: Testing
 
 ## Problem #1: File with an Image Reference  
 [new-file.md](https://github.com/JRUCSD/cse15l-lab-reports/blob/35d1bad71171e575c7a916517013974be5bd9509/new-file.md)  
