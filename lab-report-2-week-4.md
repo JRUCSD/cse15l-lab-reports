@@ -21,5 +21,5 @@ The symptom of incorrect links being included in the output was the result of ma
 ### Symptom  
 ![Third Error Image](error3.png)  
 ### Code Change  
-
+![Third Fix Image](fix3.png)  
 In this instance, the bug arose from the previous fix to the program. With a failure-inducing input file that does not contain a set of parentheses after a set of brackets, the value of the variables `openParen` and `closeParen` contain the unintended value of -1, which causes the symptom of a `StringIndexOutOfBoundsException` and the program to crash.
