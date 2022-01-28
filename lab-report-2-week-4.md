@@ -22,4 +22,4 @@ This bug in particular encompassed a variety of symptoms, so our group focused o
 ![Third Error Image](error3.png)  
 ### Code Change  
 ![Third Fix Image](fix3.png)  
-In this instance, the bug arose from the program not being able to find a set of parentheses following a pair of brackets. 
+In this instance, the bug arose from the previous fix to the program. With a failure-inducing input file that does not contain a set of parentheses, the value of the variables `openParen` and `closeParen` contain the unintended value of -1, which causes the symptom of a `StringIndexOutOfBoundsException` and the program to crash.
