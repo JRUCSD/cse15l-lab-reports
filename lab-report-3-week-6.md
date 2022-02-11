@@ -1,17 +1,24 @@
-# CSE 15L Lab Report 3: Copy Directories with `scp -r`   
-When it comes to directories, `scp` has some limitations. `scp <directory>` will only work if `<directory>` is empty. The workaround for this is recursion, thankfully we don't have to write any recursive algorithms or code, we just have to use it. `scp -r` assists in copying a directory by probing it and all of its subdirectories to copy them.  
+# CSE 15L Lab Report 3: Configuring ssh   
+While ssh keys help to make logging into a remote server quicker, typing out a long username is still cumbersome and prone to typing errors. Thankfully, there's a way to shorten the ssh login username by giving it a nickname. To do this requires making changes in the `~/.ssh` directory, the same directory where one of the keys is located. Inside that directory edit the `config` file or create a new one and add these lines:  
+
+    Host <nickname>
+        HostName ieng6.ucsd.edu
+        User <username> 
    
-Breaking down a common, practical example:  
-`scp -r . <username>@ieng6.ucsd.edu~/<directory>`  
-   
-- `scp -r` has already been explained.  
-- After that comes the path of the source directory. In this case, the current working directory is copied because of the `.` operator.  
-- `<username>@ieng6.ucsd.edu~/` is the remote destination of the contents being copied.  
-- `<directory>` is the name of the new directory that is created and where the contents will be copied onto the remote ssh.  
+- `Host <nickname>` is the username that you choose to be your, hopefully shorter, login
+- `HostName ieng6.ucsd.edu` is the remote server that is accessed when using the login nickname
+- `User <username>` is your actual username associated with the remote server
 
-After running `scp -r`, logging into ssh and running `ls` will prove that a new directory has been created. running `cd <directory>` will show that all the files of the local directory have been copied as well. Using `markdown-parse` as an example, I'm able to move into the new `markdown-parse-demo` directory and, using a `makefile`, run `make test` to compile the java files of `markdown-parse-demo` to run `MarkdownParseTest` to confirm that everything still works remotely as it did on the local machine.
+Here's an example of what `config` should look like:
+![config](config.png)  
 
-![scp -r . & running commands remotely](BigSCP.png)  
+Now that the config file is set up, you can log in with your new nickname, it will be matched with the `HostName` and the actual username which was specified in the config file, sucessfully logging you in without having to type out your full username.
+![ssh nickname login](fastshh.png)  
 
-### Optimizations
-Similar to the first post, the process of copying directories and running remote commands can be done on a single line. As a reminder, `;` allows for multiple commands to be run on a single line, & using `""` on commands following an ssh login command will remotely run the commands and immediately logout of the remote server.  
+In fact, the nickname will work with just about anything involving `ssh`, for instance using `scp` with the nickname works the same as using the actul nickname to copy a file or directory
+![scp with nickname](fastscp.png)  
+
+
+*Sidenote: If you're on windows an encounter an error, try adding this line:*  
+`IdentityFile ~/.ssh/id_rsa`  
+This will explicitly refer to the id_rsa file containing your key which should also be in the `~/.ssh` directory
