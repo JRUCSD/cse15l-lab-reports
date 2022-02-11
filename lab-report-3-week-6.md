@@ -14,4 +14,4 @@ After running `scp -r`, logging into ssh and running `ls` will prove that a new 
 ![scp -r . & running commands remotely](BigSCP.png)  
 
 ### Optimizations
-Similar to the first post, the process of copying directories and running remote commands can be done on a single line. As a reminder, `;` allows for multiple commands to be run on a single line, & using `""` on commands following an ssh login command will remotely run the commands and immediately logout of the remote server.
+Similar to the first post, the process of copying directories and running remote commands can be done on a single line. As a reminder, `;` allows for multiple commands to be run on a single line, & using `""` on commands following an ssh login command will remotely run the commands and immediately logout of the remote server.  
