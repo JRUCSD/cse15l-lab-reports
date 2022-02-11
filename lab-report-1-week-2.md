@@ -67,4 +67,6 @@ Aditionally, using tab to autofill can become ineffective when a lot of files ha
 Copying and pasting from an external document is incredibly effective at reducing keystrokes because it minimizes any actual typing and for the most part, eliminates typos and syntax related errors because the commands are typed ahead of time in an external document.   
 ![test 3](test3.png)
 
-Combining the shortcuts used in tests 2 & 3 can help to further increase efficiency when running similar commands multiple times since only the up arrow would be required, rather than having to shift between the terminal and external document to repeatedly copy and paste the same command.
+Combining the shortcuts used in tests 2 & 3 can help to further increase efficiency when running similar commands multiple times since only the up arrow would be required, rather than having to shift between the terminal and external document to repeatedly copy and paste the same command.  
+
+[<- Back](index.md)

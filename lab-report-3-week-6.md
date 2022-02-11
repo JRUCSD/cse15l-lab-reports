@@ -15,10 +15,12 @@ Here's an example of what `config` should look like:
 Now that `config` is set up, you can log in with your new nickname, it will be matched with the `HostName` and the actual username which was specified in `config`, sucessfully logging you in without having to type out your full username.
 ![ssh nickname login](fastssh.png)  
 
-In fact, the nickname will work with just about anything involving `ssh`, for instance using `scp` with the nickname works the same as using the actul nickname to copy a file or directory
+In fact, the nickname will work with just about anything involving `ssh`, for instance using `scp` with the nickname works the same as using the actul nickname to copy a file or directory.
 ![scp with nickname](fastscp.png)  
 
 
 *Sidenote: If you're on windows an encounter an error, try adding this line:*  
 `IdentityFile ~/.ssh/id_rsa`  
-This will explicitly refer to the id_rsa file containing your key which should also be in the `~/.ssh` directory
+This will explicitly refer to the id_rsa file containing your key which should also be in the `~/.ssh` directory.  
+
+[<- Back](index.md)
