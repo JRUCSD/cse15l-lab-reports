@@ -1,4 +1,4 @@
-# CSE 15L Lab Report 3: Configuring ssh   
+# CSE 15L Lab Report 3: Streamlining `ssh` Configuration
 While ssh keys help to make logging into a remote server quicker, typing out a long username is still cumbersome and prone to typing errors. Thankfully, there's a way to shorten the ssh login username by giving it a nickname. To do this requires making changes in the `~/.ssh` directory, the same directory where we store the key generated with `keygen`. Inside that directory edit the `config` file or create a new one and add these lines:  
 
     Host <nickname>
