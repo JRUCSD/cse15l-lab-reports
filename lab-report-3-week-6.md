@@ -13,7 +13,7 @@ Here's an example of what `config` should look like:
 ![config](config.png)  
 
 Now that the config file is set up, you can log in with your new nickname, it will be matched with the `HostName` and the actual username which was specified in the config file, sucessfully logging you in without having to type out your full username.
-![ssh nickname login](fastshh.png)  
+![ssh nickname login](fastssh.png)  
 
 In fact, the nickname will work with just about anything involving `ssh`, for instance using `scp` with the nickname works the same as using the actul nickname to copy a file or directory
 ![scp with nickname](fastscp.png)  
