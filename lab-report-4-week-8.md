@@ -6,7 +6,9 @@
 ![snippet3](snippet3Expected.png)  
 
 ### Testing the Snippets
-
+[snippet1](snippet1.md)
+[snippet2](snippet2.md)
+[snippet3](snippet3.md)
 ```
 @Test
 public void getLinksTestSnippet1() throws IOException{
@@ -31,7 +33,7 @@ public void getLinksTestSnippet3() throws IOException{
 [My MarkdownParse](https://github.com/JRUCSD/markdown-parse)  
 *All Tests Failed*  
 ![failed tests](myFailure.png)  
-
+- *Snippet 3 failed for an additional reason because there's a bug in our groups code that has yet to be solved, causing an infinite loop*
 [Reviewed MarkdownParse](https://github.com/w2llS/markdown-parse)  
 *All Tests Failed*  
 ![failed tests](reviewFailure.png)  
