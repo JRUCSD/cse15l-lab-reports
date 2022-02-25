@@ -33,7 +33,7 @@ public void getLinksTestSnippet3() throws IOException{
 [My MarkdownParse](https://github.com/JRUCSD/markdown-parse)  
 *All Tests Failed*  
 ![failed tests](myFailure.png)  
-*Snippet 3 failed for an additional reason because there's a bug in our groups code that has yet to be solved, causing an infinite loop*  
+*Note: snippet 3 failed for an additional reason because there's a bug in our group's code that has yet to be resolved, causing an infinite loop*  
 
 [Reviewed MarkdownParse](https://github.com/w2llS/markdown-parse)  
 *All Tests Failed*  
