@@ -20,7 +20,7 @@ public void getLinksTestSnippet1() throws IOException{
 public void getLinksTestSnippet2() throws IOException{
     Path fileName = Path.of("snippet2.md");
     String contents = Files.readString(fileName);
-    assertEquals(List.of("a.com(())", "a.com(())", "example.com"), MarkdownParse.getLinks(contents));
+    assertEquals(List.of("a.com", "a.com(())", "example.com"), MarkdownParse.getLinks(contents));
 }
 @Test
 public void getLinksTestSnippet3() throws IOException{
