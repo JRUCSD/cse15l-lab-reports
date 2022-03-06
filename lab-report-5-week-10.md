@@ -1,4 +1,4 @@
-# CSE 15L Lab Report 5: Analyzing Different Implementations
+# CSE 15L Lab Report 5: Comparing Different Implementations
 
 ## Finding the Differing Results
 
