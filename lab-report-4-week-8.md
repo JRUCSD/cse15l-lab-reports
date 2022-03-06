@@ -1,14 +1,17 @@
 # CSE 15L Lab Report 4: More MarkdownParse Testing
 
 ### Expected Output of Markdown Snippets:
+
 ![snippet1](snippet1Expected.png)  
 ![snippet2](snippet2Expected.png)  
 ![snippet3](snippet3Expected.png)  
 
 ### Testing the Snippets
+
 [snippet1](https://github.com/JRUCSD/markdown-parse/blob/05afda3ba6c2c505575ffa7096b605f232bd62fa/snippet1.md)  
 [snippet2](https://github.com/JRUCSD/markdown-parse/blob/05afda3ba6c2c505575ffa7096b605f232bd62fa/snippet2.md)  
 [snippet3](https://github.com/JRUCSD/markdown-parse/blob/05afda3ba6c2c505575ffa7096b605f232bd62fa/snippet3.md)  
+
 ```
 @Test
 public void getLinksTestSnippet1() throws IOException{
