@@ -33,6 +33,6 @@ The bug with my implementation is that when checking for an `!`, the first condi
 
 ![Joe Bug](joeBug.png)  
 The bug with Joe's implementation is that there is no check for an `!` before an open bracket `[`. While not the complete solution, a starting fix would be to include the check for the `!`, something like this pseudo code:  
-`if(markdown.charAt(nextOpenBracket-1) != '!'){toReturn.add(link);}`
+`if(markdown.charAt(nextOpenBracket-1) != '!'){toReturn.add(potentialLink);}`
 
 [<- Back](index.md)
